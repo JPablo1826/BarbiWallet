@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FBF3F2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.Controller.registro">
+   <children>
+      <TextField fx:id="nombreregistrotf" layoutX="107.0" layoutY="76.0" style="-fx-background-color: #cd6c92;" />
+      <Label layoutX="39.0" layoutY="79.0" text="Nombre" />
+      <Label layoutX="36.0" layoutY="154.0" text="Telefono" />
+      <Label layoutX="36.0" layoutY="200.0" text="Direccion" />
+      <Label layoutX="39.0" layoutY="222.0" />
+      <Label layoutX="45.0" layoutY="274.0" text="Email" />
+      <TextField fx:id="cedularegistrotf" layoutX="107.0" layoutY="110.0" style="-fx-background-color: #cd6c92;" />
+      <TextField fx:id="telefonoregistrotf" layoutX="107.0" layoutY="150.0" style="-fx-background-color: #cd6c92;" />
+      <TextField fx:id="contrasenaregistrotf" layoutX="107.0" layoutY="235.0" style="-fx-background-color: #cd6c92;" />
+      <Label layoutX="32.0" layoutY="239.0" text="Contraseña" />
+      <Button layoutX="224.0" layoutY="326.0" mnemonicParsing="false" onAction="#registrarregsitroevent" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: #cd6c92;" text="Registrar" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="15.0" />
+         </font>
+      </Button>
+      <BorderPane layoutX="-1.0" layoutY="-1.0" prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: #cd6c92;">
+         <center>
+            <Label prefHeight="35.0" prefWidth="115.0" text="Registro" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Segoe UI Black" size="24.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <ImageView fitHeight="212.0" fitWidth="253.0" layoutX="338.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Documents/GitHub/ProyectoFinal/src/main/resources/co/edu/uniquindio/poo/fxml/nina-firma-documento-registro_118167-6555-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="114.0" text="ID" />
+      <TextField fx:id="emailregistrotf" layoutX="107.0" layoutY="270.0" style="-fx-background-color: #cd6c92;" />
+      <Button layoutX="59.0" layoutY="326.0" mnemonicParsing="false" onAction="#regresarregsitroevent" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: #cd6c92;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="direccionregistrotf" layoutX="107.0" layoutY="196.0" style="-fx-background-color: #cd6c92;" />
+   </children>
+</AnchorPane>
